@@ -1,10 +1,12 @@
 import './App.css';
+import Header from './components/Header';
 // import logo from './logo.svg';
 
 function App() {
   return (
-    <div className=''>
-      <h1>Express Music X</h1>
+    <div className='container'>
+      <Header />
+      <h1>Home</h1>
     </div>
   );
 }
