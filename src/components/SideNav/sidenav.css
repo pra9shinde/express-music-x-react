@@ -1,0 +1,42 @@
+.sidebar-container {
+  margin: 20px 0;
+  display: flex;
+  font-size: 14px;
+}
+
+.sidebar-left {
+  flex: 0.12;
+}
+
+.sidebar-logo {
+  display: flex;
+  justify-self: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.sidebar-logo .sidebar-expand {
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 5px;
+  font-size: 18px;
+}
+
+.sidebar-logo p {
+  position: relative;
+}
+
+.sidebar-logo img {
+  width: 35px;
+  margin-right: 5px;
+}
+
+.sidebar-logo p span {
+  color: var(--color-primary);
+  font-size: 22px;
+  position: absolute;
+  bottom: -5px;
+  margin-left: 1px;
+}
